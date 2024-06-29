@@ -6,3 +6,28 @@
 :root {
   --navbar-color: #EEEAE4;
 }
+
+.container {
+  width: 20rem;
+}
+
+.outline {
+  border-bottom-width: 1px;
+  border-color: aqua;
+}
+
+.main-btn {
+  margin-top: 0.1rem;
+  background-color: #8ED9E9;
+  border-color: #8ED9E9;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 4px;
+  width: 8rem;
+  color: #0b1117;
+}
+
+.custom-container-fluid {
+  max-width: 1600px;
+  margin: 0 auto;
+}
