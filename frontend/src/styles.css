@@ -7,10 +7,6 @@
   --navbar-color: #EEEAE4;
 }
 
-.container {
-  width: 20rem;
-}
-
 .outline {
   border-bottom-width: 1px;
   border-color: aqua;
@@ -32,6 +28,27 @@
   margin: 0 auto;
 }
 
-.red {
-  background-color: grey;
+/*Landscape 2*/
+@media (max-width: 1600px) {
+  .custom-container-fluid {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
+
+/*Tablet*/
+@media (max-width: 1028px) {
+  .custom-container-fluid {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+/*Phone*/
+@media (max-width: 694px) {
+  h1 {
+    padding-top: 7vh;
+    text-align: center;
+    font-size: 1.7rem;
+  }
 }
